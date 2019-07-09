@@ -27,7 +27,7 @@ body{
 .logo_text {
 	display: none;
 }
-.tell-number_number {
+.tel-number_number {
 	display:flex;
 	text-decoration: none;
 	color: #303030;
@@ -35,7 +35,7 @@ body{
 	font-weight: 500;
 	font-size: 14px;
 }
-.tell-number_text {
+.tel-number_text {
 	display:flex;
 	display: none;
 }
@@ -140,7 +140,7 @@ body{
 		padding-left: 31px;
 		align-content: center;
 		}
-	.tell-number_text {
+	.tel-number_text {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
@@ -150,7 +150,7 @@ body{
 		color: #9a9a9a;
 		margin: 0;
 	}
-	.tell-number_number {
+	.tel-number_number {
 		color: #9a9a9a;
 		font-size: 12px;
 		font-weight: 400;
