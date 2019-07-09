@@ -1,0 +1,234 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.page{
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	max-width: 1920px;
+	margin: 0 auto;
+
+}
+.page-header {
+	display:flex;
+	padding: 25px 12px;
+	width: 100%;
+	background-color: #fff;
+	justify-content: space-between;
+}
+.logo_img{
+	width: 110px;
+	height: 16px;
+}
+.logo_text {
+	display: none;
+}
+.tell-number_number {
+	display:flex;
+	text-decoration: none;
+	color: #303030;
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 14px;
+}
+.tell-number_text {
+	display:flex;
+	display: none;
+}
+.face {
+	display: flex;
+	flex-direction: column;
+	background: url(/img/back_mob1.jpg) no-repeat;
+	height: 435px;
+	box-sizing: border-box;
+}
+.gathering_herbs {
+	padding-top: 37px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+.sweb {
+	color: #ffffff;
+	padding: 0 81px;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+.package {
+	height: 188px;
+	width: 86px;
+	background-image: url(/img/package_mob.png);
+	align-self: center;
+}
+.package_tablet_p, .package_desk_p {
+	display: none;
+}
+.subtitle {
+	display: none;
+}
+.push {
+	display: flex;
+	justify-content: center;
+	
+}
+.btn1 {
+	align-items: flex-start;
+	height: 60px;
+	width: 100%;
+	color: #ffffff;
+	margin-top: 38px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+	background-color: #7eb252;
+	border: 0;
+}
+.check_more{
+	display: none;
+}
+.about_us {
+	display: grid;
+	grid-column: auto;
+	padding-left: 54px;
+}
+.termin {
+	font-family: Montserrat;
+	color: #a4c58c;
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 47px;
+	text-decoration: underline;
+	border-bottom: 2px solid #a4c58c 200px; /* Параметры линии под текстом */
+  padding-bottom: 10px;
+}
+.discription {
+	width: 200px;
+	height: 62px;
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+@media(min-width: 768px){
+   .logo {
+		 display: flex;
+		 align-items: center;
+	 }
+	 .logo_link{
+		 height:29px;
+	 }
+	 .logo_img{
+		width: 198px;
+		height: 29px;
+	 }
+
+	.logo_text {
+		display: flex;
+		color: #9a9a9a;
+		font-size: 14px;
+		padding-left: 31px;
+		align-content: center;
+		}
+	.tell-number_text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		font-family: "Montserrat";
+		font-weight: 400;
+		font-size: 12px;
+		color: #9a9a9a;
+		margin: 0;
+	}
+	.tell-number_number {
+		color: #9a9a9a;
+		font-size: 12px;
+		font-weight: 400;
+		/* Text style for "8,  800 00" */
+		color: #303030;
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.face {
+		background: url(/img/back-tablet1.png) no-repeat;
+		background-position: 50% 100%;
+		height: 544px;
+		
+	}
+	.gathering_herbs {
+		margin-left: 390px;
+		padding-top: 125px;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: left;
+	}
+	.sweb {
+		margin-left: 390px;
+		padding: 0;
+		color: #ffffff;
+		font-size: 50px;
+		font-weight: 500;
+		line-height: 60px;
+		text-align: left;
+	}
+	.subtitle {
+		display: flex;
+		position: absolute;
+		top: 200px;
+		left: 390px;
+	}
+	.package {
+		height: 648px;
+		width: 298px;
+		background-image: url(/img/package_tablet.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		flex-wrap: wrap;
+		top: 199px;
+		left: 20px;
+		align-self: flex-left;
+	}
+	.push {
+		display:none;
+	}
+	
+	.check_more {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		left: 175px;
+		top: 550px;
+		width: 439px;
+		height: 240px;
+		border: 1px solid #a4c58c;
+		outline: 20px solid #ffffff;
+		background-color: #fff;
+	  }
+	.interest_more{
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 22px;
+		width: 184px;
+		height: 35px;
+		margin-left: 49px;
+		text-transform: uppercase;
+	}
+}
+@media(min-width: 1920px){
+	.page-header{
+		padding: 25px 19.5%;
+	}
+ 
+}
